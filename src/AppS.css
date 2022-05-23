@@ -1,0 +1,52 @@
+.todo-item {
+  width: 300px;
+  height: 50px;
+  border: 1px solid lightblue;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: lightblue;
+}
+
+.addButton {
+  color: rgb(255, 255, 255);
+  background-color: lightblue;
+  border: 0;
+}
+
+.deleteButton {
+  color: lightblue;
+  background-color: white;
+  border: 1.5px solid lightblue;
+  margin-top: 5px;
+}
+
+.todo-item {
+  color: lightblue;
+}
+
+.every {
+  position: relative;
+  left: 20%; /* 왜 50%가 아니라 30%를 해야 가운데에 오는거지..? 아 알아냈다. 화면 기본 세팅이 가로가 크게 되있어서 그랬음. */
+  right: 20%;
+  margin-top: 80px;
+}
+
+.box {
+  width: 400px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.addButton {
+  width: 50px;
+  height: 35px;
+}
+
+::placeholder {
+  font-weight: 450;
+  color: rgb(177, 177, 177);
+}
